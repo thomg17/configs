@@ -141,11 +141,5 @@ printf "%b\n" $'\e[93m       __\e[0m\\///////////////\e[93m__\e[0m\e[93m_\e[0m\\
 # After my mess
 . "$HOME/.cargo/env"
 
-##-----------------------------------------------------
-## synth-shell-prompt.sh
-if [ -f /home/thomas/.config/synth-shell/synth-shell-prompt.sh ] && [ -n "$( echo $- | grep i )" ]; then
-	source /home/thomas/.config/synth-shell/synth-shell-prompt.sh
-fi
+source ~/.config/fancy-bash-prompt.sh
 
-
-#neofetch
