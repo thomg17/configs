@@ -2,5 +2,5 @@
 - Author : `Thomas`
 
 ## Dependencies
-- [synth-shell](https://github.com/andresgongora/synth-shell) for fancy bash prompt
+- [vim-plug](https://github.com/junegunn/vim-plug): vim plugin manager 
 - update as I go...
