@@ -44,3 +44,4 @@ highlight CursorLineNr guifg=#000000 guibg=#ffffff
 let g:airline_powerline_fonts = 1
 set laststatus=2
 set noshowmode
+silent! source $VIMRUNTIME/defaults.vim
