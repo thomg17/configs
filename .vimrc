@@ -22,6 +22,7 @@ Plug 'tpope/vim-sleuth'
 Plug 'morhetz/gruvbox'
 Plug 'sainnhe/sonokai'
 
+Plug 'preservim/nerdtree'
 call plug#end()
 
 " Remapping
@@ -37,11 +38,12 @@ colorscheme sonokai
 
 " Line Num & Col Num
 highlight LineNr guifg=#808080 
-"guibg=#212121
 highlight CursorLine cterm=None guibg=#454545
 highlight CursorLineNr guifg=#000000 guibg=#ffffff
 
 let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
+
 set laststatus=2
 set noshowmode
 silent! source $VIMRUNTIME/defaults.vim
