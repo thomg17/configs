@@ -143,3 +143,4 @@ printf "%b\n" $'\e[93m       __\e[0m\\///////////////\e[93m__\e[0m\e[93m_\e[0m\\
 
 source ~/.config/fancy-bash-prompt.sh
 
+. /home/thomas/miniforge3/etc/profile.d/conda.sh
