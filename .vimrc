@@ -17,12 +17,15 @@ Plug 'junegunn/fzf.vim'
 " Editing
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-sleuth'
+Plug 'zivyangll/git-blame.vim'
 
 " Colorschemes
 Plug 'morhetz/gruvbox'
 Plug 'sainnhe/sonokai'
 
+" File/Buffer Explorer
 Plug 'preservim/nerdtree'
+"Plug 'jlanzarotta/bufexplorer'
 call plug#end()
 
 " Remapping
@@ -30,6 +33,7 @@ let mapleader = " "
 nnoremap <leader>ff :Files<CR>
 nnoremap <leader>fb :Buffers<CR>
 nnoremap <leader>fg :Rg<Space>
+nnoremap <leader>s : <C-u>call gitblame#echo()<CR>
 
 " Color Scheme Setting
 let g:sonokai_style = 'shusia'
