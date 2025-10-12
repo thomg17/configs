@@ -1,4 +1,5 @@
 set relativenumber
+set number
 set colorcolumn=89
 set numberwidth=1
 set background=dark
