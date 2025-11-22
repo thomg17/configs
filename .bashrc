@@ -121,6 +121,7 @@ fi
 # Aliases for python
 alias python='python3'
 alias ipython='ipython3'
+export PYTHONBREAKPOINT=ipdb.set_trace
 
 # Default to vim
 export EDITOR="/usr/bin/vim"
