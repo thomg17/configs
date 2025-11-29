@@ -37,14 +37,14 @@ nnoremap <leader>fg :Rg<Space>
 nnoremap <leader>s : <C-u>call gitblame#echo()<CR>
 
 " Removing a crutch
-" noremap <UP> ""
-" noremap! <UP> <ESC>
-" noremap <DOWN> ""
-" noremap! <DOWN> <ESC>
-" noremap <LEFT> ""
-" noremap! <LEFT> <ESC>
-" noremap <RIGHT> ""
-" noremap! <RIGHT> <ESC>
+noremap <UP> ""
+noremap! <UP> <ESC>
+noremap <DOWN> ""
+noremap! <DOWN> <ESC>
+noremap <LEFT> ""
+noremap! <LEFT> <ESC>
+noremap <RIGHT> ""
+noremap! <RIGHT> <ESC>
 
 " Color Scheme Setting
 let g:sonokai_style = 'shusia'
